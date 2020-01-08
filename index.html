@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title>Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="display">
+                <span id="display_value" class="value">0</span>
+            </div>
+            <div class="button-container">
+                <div class="button-row">
+                    <div class="button-tile"><a href="#" onclick="clearCalculator()" class="button button-dark">C</a></div>
+                    <div class="button-tile"><a href="#" onclick="calculate('+-')" class="button button-dark">+/-</a></div>
+                    <div class="button-tile"><a href="#" onclick="calculate('%')" class="button button-dark">%</a></div>
+                    <div class="button-tile"><a href="#" onclick="calculate('/')" class="button button-orange">/</a></div>
+                </div>
+                <div class="button-row">
+                    <div class="button-tile"><a href="#" onclick="typeNumber('7')" class="button">7</a></div>
+                    <div class="button-tile"><a href="#" onclick="typeNumber('8')" class="button">8</a></div>
+                    <div class="button-tile"><a href="#" onclick="typeNumber('9')" class="button">9</a></div>
+                    <div class="button-tile"><a href="#" onclick="calculate('x')" class="button button-orange">x</a></div>
+                </div>
+                <div class="button-row">
+                    <div class="button-tile"><a href="#" onclick="typeNumber('4')" class="button">4</a></div>
+                    <div class="button-tile"><a href="#" onclick="typeNumber('5')" class="button">5</a></div>
+                    <div class="button-tile"><a href="#" onclick="typeNumber('6')" class="button">6</a></div>
+                    <div class="button-tile"><a href="#" onclick="calculate('-')" class="button button-orange">--</a></div>
+                </div>
+                <div class="button-row">
+                    <div class="button-tile"><a href="#" onclick="typeNumber('1')" class="button">1</a></div>
+                    <div class="button-tile"><a href="#" onclick="typeNumber('2')" class="button">2</a></div>
+                    <div class="button-tile"><a href="#" onclick="typeNumber('3')" class="button">3</a></div>
+                    <div class="button-tile"><a href="#" onclick="calculate('+')" class="button button-orange">+</a></div>
+                </div>
+                <div class="button-row">
+                    <div class="button-tile button-tile-2x"><a href="#" onclick="typeNumber('0')" class="button">0</a></div>
+                    <div class="button-tile"><a href="#" onclick="typeNumber('.')" class="button">.</a></div>
+                    <div class="button-tile"><a href="#" onclick="equals()" class="button button-orange">=</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
