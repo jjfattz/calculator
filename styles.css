@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    padding:0px;
+    padding: 0px;
     margin: 0px;
 }
 
@@ -13,7 +13,7 @@ body {
 }
 
 .calculator {
-    margin-top:40px;
+    margin-top: 40px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid #000;
@@ -32,22 +32,19 @@ body {
 }
 
 .value {
-    color:#fff;
+    color: #fff;
     font-size: 40px;
 }
 
-.button-container {
+.button-container {}
 
-}
-
-.button-row {
-
-}
+.button-row {}
 
 .button-tile {
     display: inline-block;
     vertical-align: top;
     width: 25%;
+    margin-right: -4px;
 }
 
 .button-tile a {
